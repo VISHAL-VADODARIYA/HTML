@@ -14,7 +14,7 @@ body {}
     border: 1px solid #CCCCCC;
 }
 
-#data>div {
+#data > div {
     padding: 5px;
     border-bottom: 1px solid #CCCCCC;
 }
