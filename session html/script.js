@@ -41,8 +41,8 @@ function reviewAll()
     for (var i = 0 ; i < sessionStorage.length ; i++) 
     {
         var key = sessionStorage.key(i);
-        var value = sessionStorage(key);
-        data.innerHTML += '<div>' + key + ': ' + value + '<br><div>'; 
+        var value = sessionStorage[key];
+        data.innerHTML += '<div>' + key + ': ' + value + '<br></div>';    
         
     }
 }
